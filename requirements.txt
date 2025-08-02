@@ -1,0 +1,67 @@
+﻿# =============================================================================
+# Market Complexity Dashboard - Requirements Specification
+# =============================================================================
+#
+# This requirements file specifies the exact dependency versions for the
+# Market Complexity Dashboard framework implementing advanced financial time
+# series analysis methodologies including RCMSE and MF-DFA algorithms.
+#
+# Installation: pip install -r requirements.txt
+#
+# Python Version Requirement: >=3.8,<4.0
+# =============================================================================
+
+# --- Core Scientific Computing Stack ---
+# Fundamental numerical computing with advanced array operations
+numpy>=1.21.0,<2.0.0
+
+# High-performance data manipulation and analysis
+pandas>=1.3.0,<3.0.0
+
+# Scientific computing library for statistical functions and numerical methods
+scipy>=1.7.0,<2.0.0
+
+# --- Visualization and Plotting ---
+# Primary plotting library for scientific visualization
+matplotlib>=3.5.0,<4.0.0
+
+# Statistical data visualization enhancements
+seaborn>=0.11.0,<1.0.0
+
+# --- Financial Data Access ---
+# Yahoo Finance API client for financial data retrieval
+yfinance>=0.1.87,<1.0.0
+
+# --- Optional Performance Enhancements ---
+# Numerical computing acceleration (optional but recommended)
+numba>=0.56.0,<1.0.0
+
+# --- Development and Quality Assurance (Optional) ---
+# Code formatting and linting (development environment)
+# black>=22.0.0,<24.0.0
+# flake8>=4.0.0,<7.0.0
+# mypy>=0.991,<2.0.0
+
+# --- Testing Framework (Optional) ---
+# Unit testing framework (development environment)
+# pytest>=7.0.0,<8.0.0
+# pytest-cov>=4.0.0,<5.0.0
+
+# =============================================================================
+# Version Rationale:
+# - NumPy 1.21+: Required for advanced stride tricks and broadcasting features
+# - Pandas 1.3+: Ensures compatibility with modern DataFrame operations
+# - SciPy 1.7+: Provides robust statistical testing capabilities
+# - Matplotlib 3.5+: Offers enhanced scientific plotting features
+# - Seaborn 0.11+: Compatible with latest Matplotlib versions
+# - yfinance 0.1.87+: Stable API for financial data retrieval
+# - Numba 0.56+: JIT compilation for performance-critical algorithms
+# =============================================================================
+
+# --- Platform-Specific Notes ---
+# For Windows users: Visual C++ Build Tools may be required for some packages
+# For macOS users: Xcode Command Line Tools may be required
+# For Linux users: Standard build-essential package should suffice
+#
+# Memory Requirements: Minimum 8GB RAM recommended for large dataset analysis
+# CPU Requirements: Multi-core processor recommended for parallel processing
